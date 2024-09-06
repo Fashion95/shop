@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Fashionable World</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Watches</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="wishlist.html">Wishlist</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="cart">
+        <div class="container">
+            <h2>Your Cart</h2>
+            <div class="cart-items">
+                <!-- Example Cart Item -->
+                <div class="cart-item">
+                    <img src="watch1.jpg" alt="Elegant Watch">
+                    <div class="cart-item-info">
+                        <h3>Elegant Watch</h3>
+                        <p>$299.99</p>
+                        <button class="cta-button" onclick="removeFromCart()">Remove</button>
+                    </div>
+                </div>
+                <!-- Add more cart items similarly -->
+            </div>
+            <div class="cart-summary">
+                <h3>Total: $299.99</h3>
+                <a href="form.html" class="cta-button">Proceed to Checkout</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 FAshion Shop. All rights reserved.</p>
+            <p>Contact us at <a href="mailto:fashionablelyf@gmail.com">fashinoablelyf@gmail.com</a></p>
+        </div>
+    </footer>
+    <script src="ca.js"></script>
+</body>
+</html>

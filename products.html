@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Watches</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Fashionable World</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Watches</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="wishlist.html">Wishlist</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="search-bar">
+        <div class="container">
+            <input type="text" id="search-input" placeholder="Search for watches...">
+            <button class="cta-button" onclick="searchProducts()">Search</button>
+        </div>
+    </section>
+    <section class="filter">
+        <div class="container">
+            <h2>Filter by Category</h2>
+            <select id="category-filter" onchange="filterProducts()">
+                <option value="">All Categories</option>
+                <option value="luxury">Luxury</option>
+                <option value="sport">Sport</option>
+                <option value="casual">Casual</option>
+            </select>
+    <section class="product-gallery">
+        <div class="container">
+            <h2>Our Collection</h2>
+            <div class="products">
+                <!-- Example Product -->
+                <div class="product">
+                    <a href="product-detail.html?id=1">
+                        <img src="68.jpg" alt="Elegant Watch">
+                        <h3>Skeleton dial quartez watch</h3>
+                        <p>$299.99</p>
+                    </a>
+                </div>
+                <section class="product-gallery">
+                    <div class="container">
+                        <div class="products"><br>
+                            
+                            <div class="product">
+                                <a href="product-detail.html?id=1">
+                                    <img src="139.jpg" alt="Elegant Watch">
+                                    <h3>Elegant Watch</h3>
+                                    <p>GHC299.99</p>
+                                </a>
+                            </div>  
+              
+            </div>
+        </div>
+    </section>
+    <section class="product-gallery">
+        <div class="container">
+            <div class="products">
+                <div class="product">
+                    <a href="product-detail.html?id=1">
+                        <img src="watch1.jpg" alt="Elegant Watch">
+                        <h3>Elegant Watch</h3>
+                        <p>$299.99</p>
+                    </a>
+                </div>  
+            </div>
+        </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Fashion Shop. All rights reserved.</p>
+            <p>Contact us at <a href="mailto:fashionablelyf@gmail.com">fashinoablelyf@gmail.com</a></p>
+        </div>
+    </footer>
+    <script src="o.js"></script>
+</body>
+</html>
