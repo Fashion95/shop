@@ -57,7 +57,7 @@ nav ul li a:hover {
 
 
 .hero {
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(255, 69, 0, 0.5)), url('68.jpg') no-repeat center center/cover;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(255, 69, 0, 0.5)), url('R.jpg') no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 120px 20px;
@@ -71,7 +71,7 @@ nav ul li a:hover {
 .hero h2 {
     font-size: 4em;
     margin: 0;
-    color: #ffeb3b;
+    color: wheat;
 }
 
 .hero p {
